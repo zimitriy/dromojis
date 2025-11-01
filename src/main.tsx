@@ -3,9 +3,11 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./index.css";
 import { TonConnectUIProvider } from "@tonconnect/ui-react";
-// this manifest is used temporarily for development purposes
+
+// правильный манифест твоего проекта на GitHub Pages
 const manifestUrl =
-  "https://kennisnutz.github.io/dromojis/tonconnect-manifest.json";
+  import.meta.env.VITE_TON_MANIFEST_URL ||
+  "https://zimitriy.github.io/dromojis/tonconnect-manifest.json?v=3";
 
 const queryClient = new QueryClient({
   defaultOptions: { queries: { refetchOnWindowFocus: false } },

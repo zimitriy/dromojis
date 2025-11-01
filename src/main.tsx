@@ -7,7 +7,7 @@ import { TonConnectUIProvider } from "@tonconnect/ui-react";
 // правильный манифест твоего проекта на GitHub Pages
 const manifestUrl =
   import.meta.env.VITE_TON_MANIFEST_URL ||
-  "https://zimitriy.github.io/dromojis/tonconnect-manifest.json?v=3";
+  "https://zimitriy.github.io/dromojis/tonconnect-manifest.json?v=5";
 
 const queryClient = new QueryClient({
   defaultOptions: { queries: { refetchOnWindowFocus: false } },

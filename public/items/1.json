@@ -1,0 +1,9 @@
+{
+  "name": "AAA #1",
+  "description": "Afteracid_animal #1",
+  "image": "https://zimitriy.github.io/dromojis/img/items/1.png",
+  "attributes": [
+    {"trait_type": "Theme", "value": "Animal"},
+    {"trait_type": "Style", "value": "Stamp"}
+  ]
+}
